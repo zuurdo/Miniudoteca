@@ -4,7 +4,7 @@ package Miniludoteca;
  * Created by Raul on 1/2/17.
  */
 public class CartaFrancesa extends Carta{
-    private enum Palo{CORAZONES,TREBOLES,PICAS,DIAMANTES};
+    public enum Palo{CORAZONES,TREBOLES,PICAS,DIAMANTES};
     private final Palo palo;
 
     public CartaFrancesa(Palo p, int i){
